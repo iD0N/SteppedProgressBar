@@ -11,3 +11,7 @@ env:
     - TEST_SDK=iphonesimulator13.2 OS=13.3 NAME='iPhone 8'
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project SteppedProgressBar.xcodeproj -scheme SteppedProgressBar -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+
+after_success:
+  - slather
+  - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
