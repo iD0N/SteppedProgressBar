@@ -34,6 +34,11 @@ public struct ShapeAttributes {
 	
 	public init() { }
 	
+	/// Init
+	/// - Parameters:
+	///   - color: main shape's color
+	///   - strokeColor: shape's stroke color
+	///   - lineHeight: shape's line of height
 	public init(color: UIColor,	strokeColor: UIColor, lineHeight: CGFloat)
 	{
 		self.color = color
@@ -72,6 +77,11 @@ public struct TextAttributes {
 	
 	public init() { }
 	
+	/// init
+	/// - Parameters:
+	///   - color: text color
+	///   - font: text font
+	///   - offset: text top offset
 	public init(color: UIColor, font: UIFont, offset: CGFloat) {
 		yOffset = offset
 		selectedColor = color
