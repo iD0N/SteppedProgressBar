@@ -1,10 +1,13 @@
 language: swift
+osx_image: xcode11.3
 
-osx_image: xcode10.1
+branches:
+    only:
+    - master
+
 env:
   matrix:
-    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone XR'
-    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 7'
-
+    - TEST_SDK=iphonesimulator13.2 OS=13.3 NAME='iPhone 11 Pro'
+    - TEST_SDK=iphonesimulator13.2 OS=13.3 NAME='iPhone 8'
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project SteppedProgressBar.xcodeproj -scheme SteppedProgressBar -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
