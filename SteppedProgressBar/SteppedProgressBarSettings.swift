@@ -26,11 +26,11 @@ public struct SteppedProgressBarAttributes {
 
 public struct ShapeAttributes {
 	
-	public var color: UIColor = .blue
+	public var color: UIColor = #colorLiteral(red: 0.5725490451, green: 0, blue: 0.2313725501, alpha: 1)
 	
-	public var strokeColor: UIColor = .cyan
+	public var strokeColor: UIColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
 	
-	public var lineHeight: CGFloat = 6.0
+	public var lineHeight: CGFloat = 3.0
 	
 	public init() { }
 	
@@ -63,15 +63,15 @@ public struct TextTypes {
 public struct TextAttributes {
 	
 	
-	public var selectedColor: UIColor = .blue
+	public var selectedColor: UIColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
 	
-	public var unSelectedColor: UIColor = .gray
+	public var unSelectedColor: UIColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
 	
 	public var inProgressColor: UIColor? = nil
 	
-	public var selectedFont: UIFont = .systemFont(ofSize: 14)
+	public var selectedFont: UIFont = .systemFont(ofSize: 14, weight: .bold)
 	
-	public var unSelectedFont: UIFont = .systemFont(ofSize: 14)
+	public var unSelectedFont: UIFont = .systemFont(ofSize: 14, weight: .bold)
 	
 	public var yOffset: CGFloat = 20.0
 	

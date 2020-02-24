@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F65922942404531F005D9DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65922932404531F005D9DC9 /* AppDelegate.swift */; };
+		F65922962404531F005D9DC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65922952404531F005D9DC9 /* SceneDelegate.swift */; };
+		F65922982404531F005D9DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65922972404531F005D9DC9 /* ViewController.swift */; };
+		F659229B2404531F005D9DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65922992404531F005D9DC9 /* Main.storyboard */; };
+		F659229D24045321005D9DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F659229C24045321005D9DC9 /* Assets.xcassets */; };
+		F65922A024045321005D9DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F659229E24045321005D9DC9 /* LaunchScreen.storyboard */; };
+		F65922A62404541A005D9DC9 /* SteppedProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B4C66023E253DA00D3949B /* SteppedProgressBar.framework */; };
+		F65922A72404541A005D9DC9 /* SteppedProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6B4C66023E253DA00D3949B /* SteppedProgressBar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F6B073EE23E5A9B200FF87BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B073ED23E5A9B200FF87BA /* Extensions.swift */; };
 		F6B4C66A23E253DA00D3949B /* SteppedProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B4C66023E253DA00D3949B /* SteppedProgressBar.framework */; };
 		F6B4C66F23E253DA00D3949B /* SteppedProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4C66E23E253DA00D3949B /* SteppedProgressBarTests.swift */; };
@@ -18,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F65922A82404541A005D9DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6B4C65723E253DA00D3949B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B4C65F23E253DA00D3949B;
+			remoteInfo = SteppedProgressBar;
+		};
 		F6B4C66B23E253DA00D3949B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F6B4C65723E253DA00D3949B /* Project object */;
@@ -27,7 +42,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F65922AA2404541B005D9DC9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F65922A72404541A005D9DC9 /* SteppedProgressBar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F65922912404531F005D9DC9 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65922932404531F005D9DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F65922952404531F005D9DC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F65922972404531F005D9DC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F659229A2404531F005D9DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F659229C24045321005D9DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F659229F24045321005D9DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F65922A124045321005D9DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6B073ED23E5A9B200FF87BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F6B4C66023E253DA00D3949B /* SteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B4C66323E253DA00D3949B /* SteppedProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteppedProgressBar.h; sourceTree = "<group>"; };
@@ -42,6 +79,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F659228E2404531F005D9DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65922A62404541A005D9DC9 /* SteppedProgressBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F6B4C65D23E253DA00D3949B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,12 +105,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F65922922404531F005D9DC9 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F65922932404531F005D9DC9 /* AppDelegate.swift */,
+				F65922952404531F005D9DC9 /* SceneDelegate.swift */,
+				F65922972404531F005D9DC9 /* ViewController.swift */,
+				F65922992404531F005D9DC9 /* Main.storyboard */,
+				F659229C24045321005D9DC9 /* Assets.xcassets */,
+				F659229E24045321005D9DC9 /* LaunchScreen.storyboard */,
+				F65922A124045321005D9DC9 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F65922A52404541A005D9DC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6B4C65623E253DA00D3949B = {
 			isa = PBXGroup;
 			children = (
 				F6B4C66223E253DA00D3949B /* SteppedProgressBar */,
 				F6B4C66D23E253DA00D3949B /* SteppedProgressBarTests */,
+				F65922922404531F005D9DC9 /* Example */,
 				F6B4C66123E253DA00D3949B /* Products */,
+				F65922A52404541A005D9DC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +142,7 @@
 			children = (
 				F6B4C66023E253DA00D3949B /* SteppedProgressBar.framework */,
 				F6B4C66923E253DA00D3949B /* SteppedProgressBarTests.xctest */,
+				F65922912404531F005D9DC9 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +184,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F65922902404531F005D9DC9 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65922A424045321005D9DC9 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				F659228D2404531F005D9DC9 /* Sources */,
+				F659228E2404531F005D9DC9 /* Frameworks */,
+				F659228F2404531F005D9DC9 /* Resources */,
+				F65922AA2404541B005D9DC9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65922A92404541A005D9DC9 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = F65922912404531F005D9DC9 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F6B4C65F23E253DA00D3949B /* SteppedProgressBar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6B4C67423E253DA00D3949B /* Build configuration list for PBXNativeTarget "SteppedProgressBar" */;
@@ -161,6 +249,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Don;
 				TargetAttributes = {
+					F65922902404531F005D9DC9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					F6B4C65F23E253DA00D3949B = {
 						CreatedOnToolsVersion = 11.3;
 						LastSwiftMigration = 1130;
@@ -185,11 +276,22 @@
 			targets = (
 				F6B4C65F23E253DA00D3949B /* SteppedProgressBar */,
 				F6B4C66823E253DA00D3949B /* SteppedProgressBarTests */,
+				F65922902404531F005D9DC9 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F659228F2404531F005D9DC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65922A024045321005D9DC9 /* LaunchScreen.storyboard in Resources */,
+				F659229D24045321005D9DC9 /* Assets.xcassets in Resources */,
+				F659229B2404531F005D9DC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F6B4C65E23E253DA00D3949B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +309,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F659228D2404531F005D9DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65922982404531F005D9DC9 /* ViewController.swift in Sources */,
+				F65922942404531F005D9DC9 /* AppDelegate.swift in Sources */,
+				F65922962404531F005D9DC9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F6B4C65C23E253DA00D3949B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +342,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F65922A92404541A005D9DC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6B4C65F23E253DA00D3949B /* SteppedProgressBar */;
+			targetProxy = F65922A82404541A005D9DC9 /* PBXContainerItemProxy */;
+		};
 		F6B4C66C23E253DA00D3949B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F6B4C65F23E253DA00D3949B /* SteppedProgressBar */;
@@ -237,7 +354,60 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		F65922992404531F005D9DC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F659229A2404531F005D9DC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F659229E24045321005D9DC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F659229F24045321005D9DC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		F65922A224045321005D9DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.don.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F65922A324045321005D9DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.don.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F6B4C67223E253DA00D3949B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -448,6 +618,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F65922A424045321005D9DC9 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65922A224045321005D9DC9 /* Debug */,
+				F65922A324045321005D9DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F6B4C65A23E253DA00D3949B /* Build configuration list for PBXProject "SteppedProgressBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
