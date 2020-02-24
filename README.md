@@ -2,6 +2,8 @@
 
 This is a stepped progressbar for a better elegant way of showing steps in a chain of events, special thanks to [ABSteppedProgressBar](https://github.com/antoninbiret/ABSteppedProgressBar) and [FlexibleSteppedProgressBar](https://github.com/amratab/FlexibleSteppedProgressBar) for their inspirations/solutions, however they weren't customizable enough and sometimes confusing for my needs, so I decided to take this chance to learn about framework developing and cocoapods, publishing this.
 
+![alt tag](https://github.com/iD0N/SteppedProgressBar/blob/master/Screen%20Shot%202020-02-24%20at%2010.35.06%20PM.png)
+
 
 ## Example
 
