@@ -5,6 +5,9 @@ branches:
     only:
     - master
 
+install:
+  - gem install slather
+
 env:
   matrix:
     - TEST_SDK=iphonesimulator13.2 OS=13.3 NAME='iPhone 11 Pro'
